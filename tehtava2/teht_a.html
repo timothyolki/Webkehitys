@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Moro</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <h1>Lomakkeen validointi HTML5</h1>
+
+        <form>
+            <label>
+            Your first name<input type="text" name="name" required><br>
+            </label> 
+            <label>
+            Your last name <input type="text" name="name" required><br>
+            </label>
+            Your Address <input type="text" name="address" required><br>
+            
+            <label>
+            Your Postal Code <input type="text" name="postalcode" pattern="^[0-9]{5}$" ><br>
+            </label>
+            <label>
+            E-mail: <input type="email" name="email" placeholder="Your E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br>
+            </label>
+            <label>
+            Website <input type="url" name="website" required pattern="https?://.+"><br>
+            </label>
+            <label>
+            Your Password <input type="Password" name="password" required=""><br>
+            </label>
+            <label>
+            Your phone number <input type="text" name="phonenumber" placeholder="+358..." pattern="^\+358[0-9]{9}$"><br>
+            </label>
+            Send <input id="bt" type="submit" name="send">
+        </form>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
