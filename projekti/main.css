@@ -1,0 +1,300 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#twitterheader{
+    margin-left: 20px;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#clips-display img{
+    width: 320px;
+    margin-left: 20px;
+}
+
+#clips-display p{
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+#clips-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#clips-display iframe {
+    width: 50rem;
+    height: 30rem;
+    float: left;
+
+}
+
+iframe {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#twitch-embed{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #333333;
+    width: 30%;
+    display: table;
+}
+
+#streamtext{
+    margin-bottom:20px;
+    color: whitesmoke;
+    margin-left: 20px;
+    float: left;
+}
+
+
+#streamtitle{
+    font-size: large;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+#latest{
+    font-size: large;
+    margin-left: 50px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 15%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#twitter{
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+}
+
+#tulokset{
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#tulokset li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+#hakukentta{
+    margin-left: 50px;
+}
+
+
+
+#logokuva{
+    margin-right: 10px;
+}
+
+
+.row{
+    flex-wrap: wrap;
+}
+
+#kuvanappi{
+    justify-content: center;
+}
+
+
+
+
+#profilecard{
+    height: 100%;
+    width: 100%;
+    background-image: url("uploads/OW.png");
+}
+
+#hakustreams{
+    margin-left: 140px;
+}
+#hi{
+    color: darkblue;
+    font-family: "Arial Black",Gadget,sans-serif;
+    font-size: 36px;
+    font-style: oblique;
+    
+}
+
+
+
+
+
+#vaihtonappi {
+background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    cursor: pointer;
+}
+#savenappi {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+      -webkit-transition-duration: 0.4s;
+      cursor: pointer;
+}
+#descnappi{
+background-color: black; /* Green */     
+border: none;                             
+color: white;                             
+padding: 8px 16px;
+text-align: center;                       
+text-decoration: none;                    
+display: inline-block;                    
+  -webkit-transition-duration: 0.4s;      
+  cursor: pointer;                        
+
+}
+
+.tavarat {
+    align-content: center;
+   border-radius: 50%;
+}
+
+.container {
+    justify-content: space-evenly;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+textarea{
+    resize: none;
+    height: 150px;
+    width: 690px;
+}
+
+#logo{
+    float:right;
+    padding-bottom: 40px;
+}
+textarea{
+    overflow: hidden;
+}
+#Welcomemsg{
+    color: azure;
+    font-family: "Arial Black",Gadget,sans-serif;
+    font-style: italic;
+}
+#myBtn{
+    color: whitesmoke;
+    outline-color: whitesmoke;
+    background: none;
+    border: none;
+}
+
+#buttons{
+
+
+}
+#logTab{
+
+
+}
+#myBtn2{
+    color: whitesmoke;
+    outline-color: whitesmoke;
+    background: none;
+    border: none;
+}
+
+#about{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+}
+
+#contact{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:15em;
+    height:9em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+}
+
+#sivukuva{
+    flex-wrap: wrap;
+}
